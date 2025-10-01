@@ -1,0 +1,71 @@
+.game{
+  display: flex;          
+  align-items: center;
+  justify-content: center;
+}
+
+.game-board{
+  background-color: transparent;
+  border-radius: 5px;
+  height: 500px;
+  width: 400px;
+  padding-bottom: 40px;
+  margin-left: 300px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+h1{
+  color: black;
+  text-align: center;
+  text-decoration: underline;
+}
+.boxs{
+  display: flex;
+  justify-content: center;
+}
+
+.square {
+  background-color: rgb(150, 236, 203);
+  height: 100px;  
+  width: 100px;    
+  border-radius: 10px;
+  margin: 5px;
+  position: static;
+  color: rgb(12, 8, 253);
+  font-size: 40px;
+  text-align: center;
+  font-weight: bolder;    
+  text-align: center;
+  overflow: hidden;       
+  white-space: nowrap;    
+  display: flex;          
+  align-items: center;
+  justify-content: center;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.square:focus{
+  outline: none;
+}
+
+button{
+  margin-top: 10px;
+  background-color: blue;
+  color: white;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+
+.winner{
+  height: 200px;
+  background-color: rgb(138, 158, 150);
+  width: 300px;
+  font-size: 50px;
+  color: rgb(12,8,253);
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  margin-left: 100px;
+  display: flex;          
+  align-items: center;
+  justify-content: center;
+  font-family: sans-serif;
+  border-radius: 50%;
+}
